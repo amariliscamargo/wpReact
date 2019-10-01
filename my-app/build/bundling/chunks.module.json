@@ -1,0 +1,112 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.41.0",
+  "hash": "b8e641ff7c62a50112c1",
+  "publicPath": "/static/",
+  "outputPath": "/home/amarilis/amarilis/wp/my-app/build/static",
+  "assetsByChunkName": {
+    "list": "list.module.js",
+    "my-app": [
+      "my-app.module.js",
+      "my-app.0c166d247bdb80e789fa.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "0c166d247bdb80e789fa.hot-update.json",
+      "size": 48,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 17924,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "my-app.0c166d247bdb80e789fa.hot-update.js",
+      "size": 11485,
+      "chunks": [
+        "my-app"
+      ],
+      "chunkNames": [
+        "my-app"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "my-app.module.js",
+      "size": 3607271,
+      "chunks": [
+        "my-app"
+      ],
+      "chunkNames": [
+        "my-app"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "my-app": {
+      "chunks": [
+        "my-app"
+      ],
+      "assets": [
+        "my-app.module.js",
+        "my-app.0c166d247bdb80e789fa.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "my-app": {
+      "chunks": [
+        "my-app"
+      ],
+      "assets": [
+        "my-app.module.js",
+        "my-app.0c166d247bdb80e789fa.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
