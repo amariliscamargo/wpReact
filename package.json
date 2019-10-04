@@ -1,0 +1,20 @@
+{
+  "name": "wp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "brown":"npm run docker && npm run admin && npm run app -d && npm run frontity",
+    "app": "(cd app-wp && npm run start)",
+    "frontity":"(cd my-app && npx frontity dev)",
+    "docker":"(cd wordpress && docker-compose up -d)",
+    "admin":"(firefox --new-tab http://localhost:8000/wp-admin/)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://amariliscamargo@dev.azure.com/amariliscamargo/brownbag/_git/brownbag"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
